@@ -1,0 +1,15 @@
+.wrapper {
+  .page-title {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+  }
+
+  .content-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+  }
+}

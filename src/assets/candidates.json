@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Mihai George",
+    "department": "frontend"
+  },
+  {
+    "name": "Cosmin Clipa",
+    "department": "backend"
+  },
+  {
+    "name": "David Geoana",
+    "department": "testing"
+  },
+  {
+    "name": "Ion Martin",
+    "department": "frontend"
+  },
+  {
+    "name": "Sebastian Mircea",
+    "department": "backend"
+  },
+  {
+    "name": "Cătălin Miclea",
+    "department": "testing"
+  }
+]
