@@ -68,6 +68,8 @@ function criteriaCheck(team) {
 }
 
 function selectTeam(candidates, teamSize, criteriaCheck) {
+  console.log("Start");
+  console.time("Time");
   let team;
   do {
     team = [];
@@ -76,6 +78,8 @@ function selectTeam(candidates, teamSize, criteriaCheck) {
       team.push(candidates[randomIndex]);
     }
   } while (!criteriaCheck(team));
+  console.timeEnd("Time");
+  console.log("Finish");
 
   return team;
 }
